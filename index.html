@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Projetos</title>
+	<link rel="icon" href="https://i.imgur.com/ALEZk9k.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <!-- Header -->
+    <header class="gradient-bg py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                Portfolio de Projetos
+            </h1>
+            <p class="text-xl text-gray-300 font-medium">Ricardo Loja</p>
+            <div class="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mt-4"></div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <main class="container mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+            <!-- Gerenciador de Clientes -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/DhgWQu5.png" alt="Gerenciador de Clientes" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Gerenciador de Clientes</h3>
+                <a href="https://tekinf2025.github.io/gerenciador-p2p/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Sistema Loja -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/oZ5CD31.png" alt="Sistema Loja" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Sistema Loja</h3>
+                <a href="https://tekinf2025.github.io/sistema-loja/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Controle de Gastos -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/x0sxFVb.png" alt="Controle de Gastos" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Controle de Gastos</h3>
+                <a href="https://tekinf2025.github.io/controle-financeiro-v2/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Cartões de Crédito -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/PBtLrJJ.png" alt="Cartões de Crédito" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Cartões de Crédito</h3>
+                <a href="https://tekinf2025.github.io/cartao-de-credito/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Investimentos -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/9qzolpP.png" alt="Investimentos" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Investimentos</h3>
+                <a href="https://tekinf2025.github.io/investimentos2025/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Caixa Financeiro -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/wRz7BIs.png" alt="Caixa Financeiro" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Caixa Financeiro</h3>
+                <a href="https://tekinf2025.github.io/controle-caixa/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Site da Loja -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/xGa5Wnk.png" alt="Site da Loja" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Site da Loja</h3>
+                <a href="https://tekinfo.lovable.app/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Gerar Mensagem ZAP -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/JCNPUoj.png" alt="Gerar Mensagem ZAP" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Gerar Mensagem ZAP</h3>
+                <a href="https://tekinf2025.github.io/geradordelinks/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- M3U Editor -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/Gi1Iinr.png" alt="M3U Editor" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">M3U Editor</h3>
+                <a href="https://m3u-editor.lovable.app/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Lista do Mercado -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/9Dn0ZSy.png" alt="Lista do Mercado" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Lista do Mercado</h3>
+                <a href="https://tekinf2025.github.io/lista-de-compras/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Tabela de Jogos -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/0ll2lR2.png" alt="Tabela de Jogos" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Tabela de Jogos</h3>
+                <a href="https://tekinf2025.github.io/jogosdodia" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Gerenciador de Tarefas -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/Qab7BUA.png" alt="Gerenciador de Tarefas" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Gerenciador de Tarefas</h3>
+                <a href="https://app--tarefas-familia-moraes-7e2a935c.base44.app/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+
+            <!-- Gerenciador de Prompts -->
+            <div class="bg-gray-800 rounded-xl p-4 shadow-lg card-hover border border-gray-700">
+                <div class="flex items-center justify-center mb-3 h-12">
+                    <img src="https://i.imgur.com/teAvXzW.png" alt="Gerenciador de Prompts" class="max-h-12 max-w-full object-contain">
+                </div>
+                <h3 class="text-base font-semibold mb-2 text-center">Gerenciador de Prompts</h3>
+                <a href="https://tekinf2025.github.io/gerenciador-de-prompts/" target="_blank" 
+                   class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-1.5 px-3 rounded-lg text-center transition-colors text-sm">
+                    Acessar Projeto
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400">© 2025 Ricardo Loja - Portfolio de Projetos</p>
+        </div>
+    </footer>
+</body>
+</html>
